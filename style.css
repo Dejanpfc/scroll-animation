@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+
+h1 {
+  margin: 100px 0;
+}
+section > div {
+  display: inline-block;
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+div.word-list span {
+  display: block;
+}
+div.word-list {
+  position: relative;
+  top: -30px;
+  animation: cycle ease 5s infinite;
+}
+@keyframes cycle {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: 0;
+  }
+  20% {
+    top: -30px;
+  }
+  30% {
+    top: -30px;
+  }
+  40% {
+    top: -60px;
+  }
+  50% {
+    top: -60px;
+  }
+  60% {
+    top: -90px;
+  }
+  70% {
+    top: -90px;
+  }
+  80% {
+    top: -120px;
+  }
+  90% {
+    top: -120px;
+  }
+  100% {
+    top: 0px;
+  }
+}
